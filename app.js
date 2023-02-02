@@ -11,11 +11,11 @@ app.use(express.static('public'));
 
 app.get('/', (req, res, next) => res.sendFile(__dirname + '/views/index.html'));
 
-app.get('/About', (req, res, next) => res.sendFile(__dirname + '/views/about.html'));
+app.get('/about', (req, res, next) => res.sendFile(__dirname + '/views/about.html'));
 
-app.get('/Works', (req, res, next) => res.sendFile(__dirname + '/views/works.html'));
+app.get('/works', (req, res, next) => res.sendFile(__dirname + '/views/works.html'));
 
-app.get('/Photo-Gallery', (req, res, next) => res.sendFile(__dirname + '/views/photo.html'));
+app.get('/photo-gallery', (req, res, next) => res.sendFile(__dirname + '/views/photo.html'));
 
 
 
