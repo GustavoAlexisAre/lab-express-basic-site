@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:aliceblue;
+}
+
+
+h1{
+    color:crimson;
+    text-align: center;
+}
+
+div{
+    padding: 30px;
+}
+
+span{
+    color: black;
+    font-size: 30px;
+}
